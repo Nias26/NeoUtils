@@ -1,6 +1,4 @@
-*neoutils*                                                Utilities for neovim
-
-Author: Nias26
+*neoutils.txt*                                            Utilities for neovim
 
 ==============================================================================
 CONTENTS                                                            *neoutils*
