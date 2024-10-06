@@ -18,7 +18,7 @@ function M.setup(opts)
 
 	-- Load utils
 	if opts.enabled.split then
-		require("neoutils.utils.split")
+		M.split = require("neoutils.utils.split").split
 	end
 end
 
