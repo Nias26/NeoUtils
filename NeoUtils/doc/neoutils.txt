@@ -1,0 +1,44 @@
+*neoutils*                                                Utilities for neovim
+
+Author: Nias26
+
+==============================================================================
+CONTENTS                                                            *neoutils*
+
+  1. Introduction                                      |neoutils-introduction|
+  2. Setup/Configuration                               |neoutils-setup|
+  3. Utilities                                         |neoutils-utilities|
+
+==============================================================================
+1. INTRODUCTION                                        *neoutils-introduction*
+
+NeoUtils is a plugin made from scripts that I wrote. They aim to improve the
+usage of neovim and other plugins.
+
+Other users (Like you!) can improve this plugin by adding their own functions
+and commands. Just make a pull request on the GitHub repo.
+
+==============================================================================
+2. SETUP                                                      *neoutils-setup*
+
+Setup must be called in order to initialize the plugins.
+
+Default setup: 
+
+>lua
+    {
+        enabled = {
+            split = true,
+        }
+    }
+<
+
+==============================================================================
+3. UTILITIES                                              *neoutils-utilities*
+
+The current available utilities are:
+  - Split: Usage of the `split` and `vsplit` commands with telescope
+  find_files
+
+
+vim:tw=78:ts=2:sw=2:et:ft=help:norl:
